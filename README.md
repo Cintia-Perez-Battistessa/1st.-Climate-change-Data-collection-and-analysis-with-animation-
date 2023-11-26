@@ -1,14 +1,15 @@
-(VER MIT LICENSE)
-(Linkear el archivo de LICENSE, a la palabra)
+
+
 
 <a name="top"></a>
 # Table of Contents
 * [1. Introduction to Climate Change](#item1)
 * [2. Project objectives](#item2)
 * [3. About this project](#item3)
-* [4. License](#item4)
-* [5. Technical Review](#item5)
-* [6. Give a Star](#item6)
+* [4. Conclusion](#item4)
+* [5. License](#item5)
+* [6. Technical Review](#item6)
+* [7. Give a Star](#item7)
 
 
 <a name="item1"></a>
@@ -37,15 +38,15 @@ This text describes the project's development stages required to achieve its goa
 # 4. Conclusions
 
 
-<a name="item6"></a>
-# 6. License 
+<a name="item5"></a>
+# 5. License 
 This project is licensed under the Apache License. Please refer to the LICENSE file for more information.
 
-<a name="item7"></a>
-# 7. Technical Review 
+<a name="item6"></a>
+# 6. Technical Review 
 I conducted a technical review. Let me know if you need more information or have feedback.
 
 
-<a name="item6"></a>
-# 6. Give a Star! ⭐ 
+<a name="item7"></a>
+# 7. Give a Star! ⭐ 
 If you find this helpful, please star it. Thanks!
