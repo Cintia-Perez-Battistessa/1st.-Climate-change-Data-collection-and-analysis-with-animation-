@@ -1,7 +1,7 @@
 # Climate Change in the Capital Cities of Spain
 
 ![](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/blob/main/maps_Mean%20Temperature%20anomaly.gif)
-_Basemap animation of annual mean temperature change from 1963-2022 in Spanish capital cities._
+_Animation  1: Annual mean temperature change from 1963-2022 in Spanish capital cities._
 
 
 <a name="top"></a>
