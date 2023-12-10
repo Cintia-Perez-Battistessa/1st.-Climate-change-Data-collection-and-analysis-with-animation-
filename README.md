@@ -1,19 +1,31 @@
-[Monthly Maximum Wind Speed anomaly.csv](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/files/13627841/Monthly.Maximum.Wind.Speed.anomaly.csv)[Monthly Total Precipitation anomaly.csv](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/files/13627838/Monthly.Total.Precipitation.anomaly.csv)[Monthly Mean Temperature anomaly.csv](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/files/13627825/Monthly.Mean.Temperature.anomaly.csv)# Climate Change in the Capital Cities of Spain
+# Climate Change in the Capital Cities of Spain
 
 ![](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/blob/main/maps_Mean%20Temperature%20anomaly.gif)
 
-_Animation  1: Annual mean temperature change from 1963-2022 in Spanish capital cities. Marker color and size indicate if this year's temperature is close to a record for a Capital City. Blue and small makers represent the coldest temperatures, while red and big makers represent the highest temperatures._
+>_Animation  1: Annual mean temperature change from 1963-2022 in Spanish capital cities. Marker color and size indicate if this year's temperature is close to a record for a Capital City. Blue and small makers represent the coldest temperatures, while red and big makers represent the highest temperatures._
+
 
 
 <a name="top"></a>
 # Table of Contents
 * [1. Introduction to Climate Change](#item1)
 * [2. Project objectives](#item2)
-* [3. About this project](#item3)
-* [4. Conclusion](#item4)
-* [5. License](#item5)
-* [6. Technical Review](#item6)
-* [7. Give a Star](#item7)
+* [3. Data collection](#item3)
+  + [3.1 Data on capital](#item3.1)
+  + [3.2 Climatic data](#item3.2)
+* [4. Data analysis](#item4)
+  + [4.1 Annual climate anomaly](#item4.1)
+    * [4.1.1. Temperature data](#item4.1.1)
+    * [4.1.2. Precipitation data](#item4.1.2)
+    * [4.1.3. Wind speed data](#item4.1.3)
+  + [4.2 Monthly climate anomaly](#item4.2)
+    * [4.2.1. Temperature data](#item4.2.1)
+    * [4.2.2. Precipitation data](#item4.2.2)
+    * [4.2.3. Wind speed data](#item4.2.3)
+* [5. Conclusion](#item5)
+* [6. License](#item6)
+* [7. Technical Review](#item7)
+* [8. Give it a Star](#item8)
 
 
 <a name="item1"></a>
@@ -24,7 +36,7 @@ The main objective of this study was to analyze the climate of Spanish capital c
 
 To analyze climatic variables over time, the annual and monthly anomalies of each one were calculated. These anomalies help identify trends. The anomaly for a specific variable and time period is obtained by calculating the difference between the average value for that period and the average value of the variable for the chosen reference period (1963 to 2022).
 
-The results have shown a significant trend of rising temperatures, commonly known as global warming.
+This report will explain the study using Spain's results to aid comprehension. But, the findings from this study can be replicated and extended to Spain's autonomous communities and capitals. Just remember the results for Spain and autonomous communities are an extrapolation of the results for the Spanish capitals.
 
 <a name="item2"></a>
 # 2. Project objectives 
@@ -36,21 +48,26 @@ This project had three primary goals:
 
 <a name="item3"></a>
 # 3. Data collection 
+
 It was necessary to collect data on the capital cities, their autonomous communities, latitude, and longitude, as well as weather data from 1963 to 2022. Data was fetched from public, free, and official sources 
 
-**Data on capital.** The data were obtained from *Opendatasoft*, a company offering data sharing software. 
+<a name="item3.1"></a>
+### 3.1. Data on capital
+The data were obtained from *Opendatasoft*, a company offering data sharing software. 
 
-**Climatic data.**  The data were obtained from *Open-Meteo* which is an open-source weather API. The information obtained for each capital was Temperature, Total Precipitation, and Maximum wind speed. The following table outlines the different units and defines the climatic variables.
+<a name="item3.2"></a>
+### 3.2. Climatic data 
+The data were obtained from *Open-Meteo* which is an open-source weather API. The information obtained for each capital was Temperature, Total Precipitation, and Maximum wind speed. The following table outlines the different units and defines the climatic variables.
 
 |Variable|Variable name in API|Unit|Description|
-|---------------|----------------------|-----|--------------------------------------|
+|----|----|:----:|----|
 |Mean Temperature|temperature_2m_mean|°C|Mean daily air temperature at 2 meters above ground|
 |Maximum Temperature|temperature_2m_max|°C|Maximum daily air temperature at 2 meters above ground|
 |Minimum Temperature|temperature_2m_min|°C|Minimum daily air temperature at 2 meters above ground|
 |Total Precipitation|precipitation_sum|mm|Sum of daily precipitation (including rain, showers, and snowfall)|
 |Maximum Wind Speed|wind_speed_10m_max|km/h|Maximum wind speed on a day|
 
-_Table 1. Climate variables collected from the Open-Meteo API._
+>_Table 1. Climate variables collected from the Open-Meteo API._
 
 <a name="item4"></a>
 # 4. Data analysis
@@ -60,20 +77,21 @@ _Table 1. Climate variables collected from the Open-Meteo API._
 
 To calculate the annual climate anomaly in a specific year, it's required to determine the difference between the average annual climate variable for that year (known as the average *annual climate variable*) and the average climate variable value for the period between 1963 and 2022 (known as the *historical average climate variable*).
 
-**Temperature data.**
+<a name="item4.1.1"></a>
+### 4.1.1. Temperature data
 
-The trend in mean temperature over the years is then represented in a bar graph (Figure 1). The color scale ranges from blue to red, with the blue representing values closer to record lows and the redder colors indicating values closer to record highs for that year's anomaly. The graph shows a noticeable temperature rise, which is a clear indication of global warming in Spain. 
+The trend in mean temperature over the years is represented in a bar graph (Figure 1). The color scale ranges from blue to red, with the blue representing values closer to record lows and the redder colors indicating values closer to record highs for that year's anomaly. The graph shows a noticeable temperature rise, which is a clear indication of global warming in Spain. 
 
 In 2022, Spain had a record high mean daily Mean Temperature of 1.94 °C above the historical average between 1963-2022 (13.44 °C), and in 1972, a record low of -1.67 °C below the historical average.
 
 ![Spain_Mean Temperature anomaly](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/19765ac6-288a-4cae-8693-0cd3965dcda3)
 
-_Figure 1. The trend in mean temperature between 1963 and 2022._
+>_Figure 1. The trend in mean temperature between 1963 and 2022._
 
 The 10 capitals of Spain that presented the greatest mean temperature anomaly were analyzed (Table 2). The most significant anomalies occurred in 2022, with Granada having the highest value (2,6 °C).
 
 |Level|Capital city|Year|Mean temperature anomaly [°C]|Historial average mean temperature [°C]|
-|---|------------------|--------|----------------------|---------------------|
+|:----:|------------------|:----:|:----:|:----:|
 |1|Granada|2022|2,6|13,63|
 |2|Burgos|2022|2,48|10,04|
 |3|Soria|2022|2,47|10,43|
@@ -85,22 +103,23 @@ The 10 capitals of Spain that presented the greatest mean temperature anomaly we
 |9|Lleida|2022|2,35|10,04|
 |10|Badajoz|2022|2,29|16,48|
 
-_Table 2. Top 10 of capital cities with the highest annual mean temperature anomaly._
+>_Table 2. Top 10 of capital cities with the highest annual mean temperature anomaly._
 
-**Precipitation data.**
+<a name="item4.1.2"></a>
+### 4.1.2. Precipitation data
 
-The trend in total precipitation over the years is then represented in a bar graph (Figure 2). Unlike temperature, there is no clear trend in total precipitation over the years. However, data shows that the precipitation was higher in the earlier years, indicating a decrease in precipitation over time.
+The trend in total precipitation over the years is represented in a bar graph (Figure 2). Unlike temperature, there is no clear trend in total precipitation over the years. However, data shows that the precipitation was higher in the earlier years, indicating a decrease in precipitation over time.
 
 In 1972, Spain had a record high mean daily Total Precipitation of 48.5 mm/day above the historical average between 1963-2022 (92.47 mm/day), and in 2005, a record low of -27.18 mm/day below the historical average.
 
 ![Spain_Total Precipitation anomaly](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/17c9f77d-84d9-476b-a388-b0868506137f)
 
-_Figure 2. The trend in total precipitation between 1963 and 2022._
+>_Figure 2. The trend in total precipitation between 1963 and 2022._
 
 The 10 capitals of Spain that presented the greatest total precipitation anomaly were analyzed (Table 3). The analysis indicates that the majority of the highest precipitation records occurred within the initial years of the study period, as previously mentioned.
 
 |Level|Capital city|Year|Total precipitation anomaly [mm/day]|Historical average total precipitation [mm/day]|
-|---|------------------|--------|----------------------|----------------------|
+|:----:|------------------|:----:|:----:|:----:|
 |1|Cádiz|1996|2,26|2,1|
 |2|Ceuta|1996|2,11|2,0|
 |3|Pontevedra|1966|2,06|3,84|
@@ -112,22 +131,23 @@ The 10 capitals of Spain that presented the greatest total precipitation anomaly
 |9|Tarragona|1972|1,68|1,57|
 |10|Gerona|1972|1,63|2,73|
 
-_Table 3. Top 10 of capital cities with the highest annual total precipitation anomaly._
+>_Table 3. Top 10 of capital cities with the highest annual total precipitation anomaly._
 
-**Wind speed data.**
+<a name="item4.1.3"></a>
+### 4.1.3. Wind speed data
 
-The trend in maximum wind speed over the years is then represented in a bar graph (Figure 2). A slight increase in maximum wind speeds is observed.
+The trend in maximum wind speed over the years is represented in a bar graph (Figure 2). A slight increase in maximum wind speeds is observed.
 
 In 2013, Spain had a record high mean daily Maximum Wind Speed of 0.98 Km/h above the historical average between 1963-2022 (15.77 Km/h), and in 1983, a record low of -0.72 Km/h below the historical average.
 
 ![Spain_Maximum Wind Speed anomaly](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/da3fa652-53b4-414c-bc15-044d2ce72c11)
 
-_Figure 3. The trend in maximum wind speed between 1963 and 2022._
+>_Figure 3. The trend in maximum wind speed between 1963 and 2022._
 
 The 10 capitals of Spain that presented the greatest maximum wind speed anomaly were analyzed (Table 4). The analysis indicates that the majority of the highest precipitation records occurred in 2013, with Valencia having the highest value (2,2 °C).
 
 |Level|Capital city|Year|Maximum wind speed anomaly [Km/h]|Historical average maximum wind speed [Km/h]|
-|---|------------------|--------|----------------------|----------------------|
+|:----:|------------------|:----:|:----:|:----:|
 |1|Valencia|2013|2,2|15,55|
 |2|Tarragona|2013|2,13|16,69|
 |3|Islas Baleares|2021|1,86|17,5|
@@ -139,31 +159,32 @@ The 10 capitals of Spain that presented the greatest maximum wind speed anomaly 
 |9|Lugo|2013|1,57|17,93|
 |10|Albacete|2013|1,54|16,45|
 
-_Table 5. Top 10 of capital cities with the highest annual maximum wind speed anomaly._
+>_Table 5. Top 10 of capital cities with the highest annual maximum wind speed anomaly._
 
 <a name="item4.1"></a>
 ## 4.2. Monthly climate anomaly
 
 To calculate the monthly climate anomaly in a particular month and year, it's required to determine the difference between the average climate variable for that specific month and year (known as the average *monthly climate variable*) and the average climate variable value for the period between 1963 and 2022 for that same month (known as the *historical monthly average climate variable*).
 
-**Temperature data.**
+<a name="item4.2.1"></a>
+### 4.2.1. Temperature data
 
 The monthly temperature anomaly animation is presented between 1963 and 2022 (Animation 2), revealing an expanding polygon area over time. It represented a rise in temperatures. 
 
 ![output_reduce](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/a5fd1ede-c86e-41c1-9797-b7e705f7a94f)
 
-_Animation 2. The monthly mean temperature anomaly is represented on the polygon graph between 1963 and 2022._
+>_Animation 2. The monthly mean temperature anomaly is represented on the polygon graph between 1963 and 2022._
 
 Below is the trend mean temperature for each month between 1963 and 2022 (Figure 4). Most months showed a rising temperature trend over the years. 
 
 ![Temperature](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/77c9c966-4295-4eb2-bf45-abac3479a450)
 
-_Figure 4. The trend mean temperature during a specific month between 1963 and 2022: (a)January, (b)February, (c)March, (d)April, (e)May, (f)June, (g)July, (h)August, (i)September, (j)October, (k)November, (l)December._
+>_Figure 4. The trend mean temperature during a specific month between 1963 and 2022: (a)January, (b)February, (c)March, (d)April, (e)May, (f)June, (g)July, (h)August, (i)September, (j)October, (k)November, (l)December._
 
 The largest anomaly for each month is listed below (Table 6). The highest was in June with 3,47 °C above the historical average between 1963-2022 (18,91 °C).
 
 |Month|Year|Monthly mean temperature anomaly [°C]|Historical monthly mean temperature [°C]|
-|--------|--------|----------------------------|----------------|
+|--------|:------:|:------:|:------:|
 |January|2016|2,36|6,0|
 |February|2020|3,25|6,93|
 |March|1997|3,0|9,08|
@@ -177,26 +198,27 @@ The largest anomaly for each month is listed below (Table 6). The highest was in
 |November|2022|2,25|9,62|
 |December|2022|2,9|6,81|
 
-_Table 6. The highest recorded monthly mean temperature anomalies in Spain for each month._
+>_Table 6. The highest recorded monthly mean temperature anomalies in Spain for each month._
 
-**Precipitation data.**
+<a name="item4.2.2"></a>
+### 4.2.2. Precipitation data
 
 The monthly total precipitation anomaly animation is presented between 1963 and 2022 (Animation 3). In this, it isn't easy to find a trend in precipitation from the animation.  
 
 ![output _reduce](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/73d0e934-3cfa-49bd-9b0b-0943e01c6450)
 
-_Animation 3. The monthly total precipitation anomaly is represented on the polygon graph between 1963 and 2022._
+>_Animation 3. The monthly total precipitation anomaly is represented on the polygon graph between 1963 and 2022._
 
 The graphs below present the monthly total precipitation between 1963 and 2022 (Figure 5). Over the years, a trend cannot be observed in the precipitation of most months, except for a slight trend to decrease during some months, like June, July, and August.
 
 ![total precipitation monthly](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/371fce4f-a983-492f-9d0f-2c9a5ddadcbc)
 
-_Figure 5. The trend total precipitation during a specific month between 1963 and 2022: (a)January, (b)February, (c)March, (d)April, (e)May, (f)June, (g)July, (h)August, (i)September, (j)October, (k)November, (l)December._
+>_Figure 5. The trend total precipitation during a specific month between 1963 and 2022: (a)January, (b)February, (c)March, (d)April, (e)May, (f)June, (g)July, (h)August, (i)September, (j)October, (k)November, (l)December._
 
 The largest anomaly for each month is listed below (Table 7). The highest was in January with 171,72 mm/day above the historical average between 1963-2022 (102,72 mm/day).
 
 |Month|Year|Monthly total precipitation anomaly [mm/day]|Historical monthly total precipitation [mm/day]|
-|--------|--------|----------------------------|-------------|
+|--------|:------:|:------:|:------:|
 |January|1970|171,72|102,72|
 |February|1966|119,29|103,79|
 |March|2018|136,8|97,64|
@@ -210,26 +232,27 @@ The largest anomaly for each month is listed below (Table 7). The highest was in
 |November|1984|121,64|123,24|
 |December|1996|154,7|110,66|
 
-_Table 7. The highest recorded monthly total precipitation anomalies in Spain for each month._
+>_Table 7. The highest recorded monthly total precipitation anomalies in Spain for each month._
 
-**Wind speed data.**
+<a name="item4.2.3"></a>
+### 4.2.3. Wind speed data
 
 The monthly maximum wind speed  anomaly animation is presented between 1963 and 2022 (Animation 3). In this, it isn't easy to find a trend in maximum wind speed from the animation. 
 
 ![output_reduce wind](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/b93792ce-e364-4b3d-8c07-729f3b45615c)
 
-_Animation 4. The monthly maximum wind speed anomaly is represented on the polygon graph between 1963 and 2022._
+>_Animation 4. The monthly maximum wind speed anomaly is represented on the polygon graph between 1963 and 2022._
 
 The graphs below present the monthly maximum wind speed between 1963 and 2022 (Figure 6). Like precipitation, the trend over time of maximum wind is not very marked. However, an increase in maximum wind speed can be observed in some months, such as June, July, and August.
 
 ![WIND SPEED](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/66d5a4b8-ae39-48d2-ac38-f82bb7e5946a)
 
-_Figure 6. The trend maximum wind speed during a specific month between 1963 and 2022: (a)January, (b)February, (c)March, (d)April, (e)May, (f)June, (g)July, (h)August, (i)September, (j)October, (k)November, (l)December._
+>_Figure 6. The trend maximum wind speed during a specific month between 1963 and 2022: (a)January, (b)February, (c)March, (d)April, (e)May, (f)June, (g)July, (h)August, (i)September, (j)October, (k)November, (l)December._
 
 The largest anomaly for each month is listed below (Table 7). The highest was in December with 6,01 km/h above the historical average between 1963-2022 (15,57 km/h).
 
 |Month|Year|Monthly maximum wind speed anomaly [km/h]|Historical monthly maximum wind speed [km/h]|
-|--------|--------|----------------------------|----------------|
+|--------|:------:|:------:|:------:|
 |January|2001|3,75|15,79|
 |February|2014|4,79|16,8|
 |March|2018|5,71|17,12|
@@ -243,14 +266,16 @@ The largest anomaly for each month is listed below (Table 7). The highest was in
 |November|2019|5,17|15,52|
 |December|1981|6,01|15,57|
 
-_Table 8. The highest recorded monthly maximum wind speed anomalies in Spain for each month._
+>_Table 8. The highest recorded monthly maximum wind speed anomalies in Spain for each month._
 
 <a name="item4"></a>
 # 4. Conclusions
 
-Findings from this study can be replicated and extended to the rest of the capital cities of Spain.
+First of all, I would like to emphasize that there are few free sources available for extracting historical climate data. After searching, I discovered the Open-Meteo API, which allowed me to achieve my first objective.
 
-According to the results of the study, vulnerable areas in nature management were identified in the context of an increase in air temperature and a decrease in precipitation.
+Secondly, both the values of the anomalies of the climatic variables and their diverse graphic representations and animation helped analyze changes in patterns and possible trends in them.
+
+Finally, after finishing my studies in Spain, I found a strong trend of increasing air temperature, also known as global warming, and a slight trend of decreasing precipitation and increasing maximum wind speed.
 
 <a name="item5"></a>
 # 5. License 
@@ -265,23 +290,3 @@ I conducted a technical review. Feel free to let me know if you need more inform
 # 7. Give it a Star! ⭐ 
 If you find this helpful, please star it. Thanks!
 
-
-INFORMACIÓN A AGREGAR:
-
-1. AGRUPAR POR COMUNIDAD, SUMAR LAS VARIABLES. DETERMINAR LOS VALORES MÁXIMOS Y MINIMOS. LAS COMUNIDADES QUE MÁS LLUEVE (Poner.. en el norte de españa llueve más).
-2. VER COMO CALCULE el valor mensual y anual. Media aritmetica??
-3. Hacer Anual de la temperatura, precipitación y viento medio y anomala.
-4. Colocar top 10. modo cuadro (https://www.sciencedirect.com/science/article/pii/S2214629622001499)
-
-The monthly data was processed and the arithmetic mean was calculated for each year, and subsequently for each of the studied periods.
-
-The average annual precipitation from 1961 to 2018 varied in the range from 12 mm to 59 mm per year (Fig. 6A). 
-
-The total amount of precipitation (Fig. 4B) for the period from 1950 to 2000 has a range from 88 mm to 321 mm per year. The indicators that have fallen in the north-west (weather stations Kuigan, Aul 4, Bakanas) of the studied area represent a decrease in the total amount of precipitation from 120 to 150 to 100 mm (desert zone). In the mountainous areas of Almaty region, including in the east (weather stations Lepsinsk, Sarkand, Tekeli) and in the south (weather stations Kugaly, Mynzhylki, Almaty (OGMS and Kam. plateau), Ecic) there is an increase in the total amount of precipitation from 250 to 300–320 mm per year (mountain desert-steppe, mountain forest, alpine zones). The central part (Kapshagai, Aksenger, Karashok weather stations) has indicators of reduction from 170 to 200 to 88–100 mm per year (steppe, foothill, mountain-desert-steppe zones).
-
-The maximum temperature (Fig. 5A) measured in the specified period varies from +11 °C to +27 °C. In the northern (weather stations Usharal, Matai, Naimansuyek), north-western (weather stations Kuigan, Aul 4, Bakanas) parts of the Almaty region, there is an increase in the maximum temperature from +22 °C to +27 °C (desert, semi-desert zones). In other parts of the region, the indicators are stable.
-
-The minimum temperature indicators (Fig. 5B) measured in the period from 1950 to 2000 will change in the range from −8°C to −16 °C. According to meteorological data, in Almaty region, except the northern part of the region (weather stations Usharal, Matai, Naimansuyek), there is an increase in the minimum temperature (desert, semi-desert zones).
-
-https://www.sciencedirect.com/science/article/pii/S2405880723000857
-doi.org/10.1016/j.cliser.2023.100423
