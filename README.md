@@ -1,4 +1,4 @@
-# Climate Change in the Capital Cities of Spain
+[Monthly Maximum Wind Speed anomaly.csv](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/files/13627841/Monthly.Maximum.Wind.Speed.anomaly.csv)[Monthly Total Precipitation anomaly.csv](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/files/13627838/Monthly.Total.Precipitation.anomaly.csv)[Monthly Mean Temperature anomaly.csv](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/files/13627825/Monthly.Mean.Temperature.anomaly.csv)# Climate Change in the Capital Cities of Spain
 
 ![](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/blob/main/maps_Mean%20Temperature%20anomaly.gif)
 
@@ -87,7 +87,6 @@ The 10 capitals of Spain that presented the greatest mean temperature anomaly we
 
 _Table 2. Top 10 of capital cities with the highest annual mean temperature anomaly._
 
-
 **Precipitation data.**
 
 The trend in total precipitation over the years is then represented in a bar graph (Figure 2). Unlike temperature, there is no clear trend in total precipitation over the years. However, data shows that the precipitation was higher in the earlier years, indicating a decrease in precipitation over time.
@@ -161,74 +160,88 @@ Below is the trend mean temperature for each month between 1963 and 2022 (Figure
 
 _Figure 4. The trend mean temperature during a specific month between 1963 and 2022: (a)January, (b)February, (c)March, (d)April, (e)May, (f)June, (g)July, (h)August, (i)September, (j)October, (k)November, (l)December._
 
-|Month|Monthly mean temperature anomaly [°C]|Year|
-|--------|--------|----------------------------|
-|January|2,36|2016|
-|February|3,25|2020|
-|March|3,0|1997|
-|April|2,96|2011|
-|May|3,19|2022|
-|June|3,47|2017|
-|July|3,16|2022|
-|August|2,49|2003|
-|September|2,47|1987|
-|October|3,23|2022|
-|November|2,25|2022|
-|December|2,9|2022|
+The largest anomaly for each month is listed below (Table 6). The highest was in June with 3,47 °C above the historical average between 1963-2022 (18,91 °C).
+
+|Month|Year|Monthly mean temperature anomaly [°C]|Historical monthly mean temperature [°C]|
+|--------|--------|----------------------------|----------------|
+|January|2016|2,36|6,0|
+|February|2020|3,25|6,93|
+|March|1997|3,0|9,08|
+|April|2011|2,96|11,17|
+|May|2022|3,19|14,79|
+|June|2017|3,47|18,91|
+|July|2022|3,16|22,08|
+|August|2003|2,49|22,02|
+|September|1987|2,47|18,86|
+|October|2022|3,23|14,54|
+|November|2022|2,25|9,62|
+|December|2022|2,9|6,81|
 
 _Table 6. The highest recorded monthly mean temperature anomalies in Spain for each month._
 
 **Precipitation data.**
 
+The monthly total precipitation anomaly animation is presented between 1963 and 2022 (Animation 3). In this, it isn't easy to find a trend in precipitation from the animation.  
+
 ![output _reduce](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/73d0e934-3cfa-49bd-9b0b-0943e01c6450)
 
 _Animation 3. The monthly total precipitation anomaly is represented on the polygon graph between 1963 and 2022._
+
+The graphs below present the monthly total precipitation between 1963 and 2022 (Figure 5). Over the years, a trend cannot be observed in the precipitation of most months, except for a slight trend to decrease during some months, like June, July, and August.
 
 ![total precipitation monthly](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/371fce4f-a983-492f-9d0f-2c9a5ddadcbc)
 
 _Figure 5. The trend total precipitation during a specific month between 1963 and 2022: (a)January, (b)February, (c)March, (d)April, (e)May, (f)June, (g)July, (h)August, (i)September, (j)October, (k)November, (l)December._
 
-|Month|Monthly total precipitation anomaly [mm/day]|Year|
-|--------|--------|----------------------------|
-|January|171,72|1970|
-|February|119,29|1966|
-|March|136,8|2018|
-|April|103,63|1971|
-|May|153,65|1971|
-|June|103,02|1988|
-|July|73,81|1971|
-|August|73,2|1983|
-|September|111,96|1972|
-|October|109,5|2003|
-|November|121,64|1984|
-|December|154,7|1996|
+The largest anomaly for each month is listed below (Table 7). The highest was in January with 171,72 mm/day above the historical average between 1963-2022 (102,72 mm/day).
+
+|Month|Year|Monthly total precipitation anomaly [mm/day]|Historical monthly total precipitation [mm/day]|
+|--------|--------|----------------------------|-------------|
+|January|1970|171,72|102,72|
+|February|1966|119,29|103,79|
+|March|2018|136,8|97,64|
+|April|1971|103,63|117,54|
+|May|1971|153,65|101,43|
+|June|1988|103,02|72,29|
+|July|1971|73,81|40,81|
+|August|1983|73,2|49,49|
+|September|1972|111,96|78,99|
+|October|2003|109,5|112,73|
+|November|1984|121,64|123,24|
+|December|1996|154,7|110,66|
 
 _Table 7. The highest recorded monthly total precipitation anomalies in Spain for each month._
 
 **Wind speed data.**
 
+The monthly maximum wind speed  anomaly animation is presented between 1963 and 2022 (Animation 3). In this, it isn't easy to find a trend in maximum wind speed from the animation. 
+
 ![output_reduce wind](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/b93792ce-e364-4b3d-8c07-729f3b45615c)
 
 _Animation 4. The monthly maximum wind speed anomaly is represented on the polygon graph between 1963 and 2022._
+
+The graphs below present the monthly maximum wind speed between 1963 and 2022 (Figure 6). Like precipitation, the trend over time of maximum wind is not very marked. However, an increase in maximum wind speed can be observed in some months, such as June, July, and August.
 
 ![WIND SPEED](https://github.com/Cintia-Perez-Battistessa/Climate-change-Data-collection-and-analysis/assets/129741210/66d5a4b8-ae39-48d2-ac38-f82bb7e5946a)
 
 _Figure 6. The trend maximum wind speed during a specific month between 1963 and 2022: (a)January, (b)February, (c)March, (d)April, (e)May, (f)June, (g)July, (h)August, (i)September, (j)October, (k)November, (l)December._
 
-|Month|Monthly maximum wind speed anomaly [km/h]|Year|
-|--------|--------|----------------------------|
-|January|3,75|2001|
-|February|4,79|2014|
-|March|5,71|2018|
-|April|3,97|1998|
-|May|1,59|1981|
-|June|1,53|2012|
-|July|1,34|2009|
-|August|1,65|2007|
-|September|2,31|1998|
-|October|3,53|1993|
-|November|5,17|2019|
-|December|6,01|1981|
+The largest anomaly for each month is listed below (Table 7). The highest was in December with 6,01 km/h above the historical average between 1963-2022 (15,57 km/h).
+
+|Month|Year|Monthly maximum wind speed anomaly [km/h]|Historical monthly maximum wind speed [km/h]|
+|--------|--------|----------------------------|----------------|
+|January|2001|3,75|15,79|
+|February|2014|4,79|16,8|
+|March|2018|5,71|17,12|
+|April|1998|3,97|17,0|
+|May|1981|1,59|16,05|
+|June|2012|1,53|15,42|
+|July|2009|1,34|15,54|
+|August|2007|1,65|15,17|
+|September|1998|2,31|14,47|
+|October|1993|3,53|14,91|
+|November|2019|5,17|15,52|
+|December|1981|6,01|15,57|
 
 _Table 8. The highest recorded monthly maximum wind speed anomalies in Spain for each month._
 
