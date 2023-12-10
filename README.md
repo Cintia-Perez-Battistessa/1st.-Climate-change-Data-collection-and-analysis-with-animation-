@@ -269,7 +269,7 @@ The largest anomaly for each month is listed below (Table 7). The highest was in
 >_Table 8. The highest recorded monthly maximum wind speed anomalies in Spain for each month._
 
 <a name="item4"></a>
-# 4. Conclusions
+# 5. Conclusions
 
 First of all, I would like to emphasize that there are few free sources available for extracting historical climate data. After searching, I discovered the Open-Meteo API, which allowed me to achieve my first objective.
 
@@ -278,15 +278,15 @@ Secondly, both the values of the anomalies of the climatic variables and their d
 Finally, after finishing my studies in Spain, I found a strong trend of increasing air temperature, also known as global warming, and a slight trend of decreasing precipitation and increasing maximum wind speed.
 
 <a name="item5"></a>
-# 5. License 
+# 6. License 
 This project is licensed under the Apache License. Please take a look at the LICENSE file for more information.
 
 <a name="item6"></a>
-# 6. Technical Review 
+# 7. Technical Review 
 I conducted a technical review. Feel free to let me know if you need more information or have feedback.
 
 
 <a name="item7"></a>
-# 7. Give it a Star! ⭐ 
+# 8. Give it a Star! ⭐ 
 If you find this helpful, please star it. Thanks!
 
