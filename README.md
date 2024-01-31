@@ -8,27 +8,27 @@
 
 <a name="readme"></a>
 # Table of Contents
-* [1. Introduction to Climate Change](#item1)
-* [2. Project objectives](#item2)
-* [3. Data collection](#item3)
-  + [3.1 Data on capital](#item3.1)
-  + [3.2 Climatic data](#item3.2)
-* [4. Data analysis](#item4)
-  + [4.1 Annual climate anomaly](#item4.1)
-    * [4.1.1. Temperature data](#item4.1.1)
-    * [4.1.2. Precipitation data](#item4.1.2)
-    * [4.1.3. Wind speed data](#item4.1.3)
-  + [4.2 Monthly climate anomaly](#item4.2)
-    * [4.2.1. Temperature data](#item4.2.1)
-    * [4.2.2. Precipitation data](#item4.2.2)
-    * [4.2.3. Wind speed data](#item4.2.3)
-* [5. Conclusion](#item5)
-* [6. License](#item6)
-* [7. Technical Review](#item7)
-* [8. Give it a Star](#item8)
+* [1. Introduction to Climate Change](#1_r_1)
+* [2. Project objectives](#2_r_1)
+* [3. Data collection](#3_r_1)
+  + [3.1 Data on capital](#3.1_r_1)
+  + [3.2 Climatic data](#3.2_r_1)
+* [4. Data analysis](#4_r_1)
+  + [4.1 Annual climate anomaly](#4.1_r_1)
+    * [4.1.1. Temperature data](#4.1.1_r_1)
+    * [4.1.2. Precipitation data](#4.1.2_r_1)
+    * [4.1.3. Wind speed data](#4.1.3_r_1)
+  + [4.2 Monthly climate anomaly](#4.2_r_1)
+    * [4.2.1. Temperature data](#4.2.1_r_1)
+    * [4.2.2. Precipitation data](#4.2.2_r_1)
+    * [4.2.3. Wind speed data](#4.2.3_r_1)
+* [5. Conclusion](#5_r_1)
+* [6. License](#6_r_1)
+* [7. Technical Review](#7_r_1)
+* [8. Give it a Star](#8_r_1)
 
 
-<a name="item1"></a>
+<a name="1_r_1"></a>
 # 1. Introduction to Climate Change
 According to NASA, climate change refers to alterations in the typical weather patterns observed in a particular location. Climate change has a global impact, affecting all regions of the world. Some of its effects include loss of sea ice, accelerated sea level rise, and temperature increase, leading to more frequent heat waves.
 
@@ -38,7 +38,7 @@ To analyze climatic variables over time, the annual and monthly anomalies of eac
 
 This report will explain the study using Spain's results to aid comprehension. But, the findings from this study can be replicated and extended to Spain's autonomous communities and capitals. Just remember the results for Spain and autonomous communities are an extrapolation of the results for the Spanish capitals.
 
-<a name="item2"></a>
+<a name="2_r_1"></a>
 # 2. Project objectives 
 This project had three primary goals:
 
@@ -46,16 +46,16 @@ This project had three primary goals:
 2. Determine annual and monthly climate anomalies.
 3. Identify changes in weather patterns that could indicate climate change.
 
-<a name="item3"></a>
+<a name="3_r_1"></a>
 # 3. Data collection 
 
 It was necessary to collect data on the capital cities, their autonomous communities, latitude, and longitude, as well as weather data from 1963 to 2022. Data was fetched from public, free, and official sources 
 
-<a name="item3.1"></a>
+<a name="3.1_r_1"></a>
 ### 3.1. Data on capital
 The data were obtained from *Opendatasoft*, a company offering data sharing software. 
 
-<a name="item3.2"></a>
+<a name="3.2_r_1"></a>
 ### 3.2. Climatic data 
 The data were obtained from *Open-Meteo* which is an open-source weather API. The information obtained for each capital was Temperature, Total Precipitation, and Maximum wind speed. The following table outlines the different units and defines the climatic variables.
 
@@ -69,15 +69,15 @@ The data were obtained from *Open-Meteo* which is an open-source weather API. Th
 
 >_Table 1. Climate variables collected from the Open-Meteo API._
 
-<a name="item4"></a>
+<a name="4_r_1"></a>
 # 4. Data analysis
 
-<a name="item4.1"></a>
+<a name="4.1_r_1"></a>
 ## 4.1. Annual climate anomaly
 
 To calculate the annual climate anomaly in a specific year, it's required to determine the difference between the average annual climate variable for that year (known as the average *annual climate variable*) and the average climate variable value for the period between 1963 and 2022 (known as the *historical average climate variable*).
 
-<a name="item4.1.1"></a>
+<a name="4.1.1_r_1"></a>
 ### 4.1.1. Temperature data
 
 The trend in mean temperature over the years is represented in a bar graph (Figure 1). The color scale ranges from blue to red, with the blue representing values closer to record lows and the redder colors indicating values closer to record highs for that year's anomaly. The graph shows a noticeable temperature rise, which is a clear indication of global warming in Spain. 
@@ -105,7 +105,7 @@ The 10 capitals of Spain that presented the greatest mean temperature anomaly we
 
 >_Table 2. Top 10 of capital cities with the highest annual mean temperature anomaly._
 
-<a name="item4.1.2"></a>
+<a name="4.1.2_r_1"></a>
 ### 4.1.2. Precipitation data
 
 The trend in total precipitation over the years is represented in a bar graph (Figure 2). Unlike temperature, there is no clear trend in total precipitation over the years. However, data shows that the precipitation was higher in the earlier years, indicating a decrease in precipitation over time.
@@ -133,7 +133,7 @@ The 10 capitals of Spain that presented the greatest total precipitation anomaly
 
 >_Table 3. Top 10 of capital cities with the highest annual total precipitation anomaly._
 
-<a name="item4.1.3"></a>
+<a name="4.1.3_r_1"></a>
 ### 4.1.3. Wind speed data
 
 The trend in maximum wind speed over the years is represented in a bar graph (Figure 2). A slight increase in maximum wind speeds is observed.
@@ -161,12 +161,12 @@ The 10 capitals of Spain that presented the greatest maximum wind speed anomaly 
 
 >_Table 5. Top 10 of capital cities with the highest annual maximum wind speed anomaly._
 
-<a name="item4.1"></a>
+<a name="4.1_r_1"></a>
 ## 4.2. Monthly climate anomaly
 
 To calculate the monthly climate anomaly in a particular month and year, it's required to determine the difference between the average climate variable for that specific month and year (known as the average *monthly climate variable*) and the average climate variable value for the period between 1963 and 2022 for that same month (known as the *historical monthly average climate variable*).
 
-<a name="item4.2.1"></a>
+<a name="4.2.1_r_1"></a>
 ### 4.2.1. Temperature data
 
 The monthly temperature anomaly animation is presented between 1963 and 2022 (Animation 2), revealing an expanding polygon area over time. It represented a rise in temperatures. 
@@ -200,7 +200,7 @@ The largest anomaly for each month is listed below (Table 6). The highest was in
 
 >_Table 6. The highest recorded monthly mean temperature anomalies in Spain for each month._
 
-<a name="item4.2.2"></a>
+<a name="4.2.2_r_1"></a>
 ### 4.2.2. Precipitation data
 
 The monthly total precipitation anomaly animation is presented between 1963 and 2022 (Animation 3). In this, it isn't easy to find a trend in precipitation from the animation.  
@@ -234,7 +234,7 @@ The largest anomaly for each month is listed below (Table 7). The highest was in
 
 >_Table 7. The highest recorded monthly total precipitation anomalies in Spain for each month._
 
-<a name="item4.2.3"></a>
+<a name="4.2.3_r_1"></a>
 ### 4.2.3. Wind speed data
 
 The monthly maximum wind speed  anomaly animation is presented between 1963 and 2022 (Animation 3). In this, it isn't easy to find a trend in maximum wind speed from the animation. 
@@ -268,7 +268,7 @@ The largest anomaly for each month is listed below (Table 7). The highest was in
 
 >_Table 8. The highest recorded monthly maximum wind speed anomalies in Spain for each month._
 
-<a name="item4"></a>
+<a name="4_r_1"></a>
 # 5. Conclusions
 
 First of all, I would like to emphasize that there are few free sources available for extracting historical climate data. After searching, I discovered the Open-Meteo API, which allowed me to achieve my first objective.
@@ -277,16 +277,16 @@ Secondly, both the values of the anomalies of the climatic variables and their d
 
 Finally, after finishing my studies in Spain, I found a strong trend of increasing air temperature, also known as global warming, and a slight trend of decreasing precipitation and increasing maximum wind speed.
 
-<a name="item5"></a>
+<a name="5_r_1"></a>
 # 6. License 
 This project is licensed under the Apache License. Please take a look at the LICENSE file for more information.
 
-<a name="item6"></a>
+<a name="6_r_1"></a>
 # 7. Technical Review 
 I conducted a technical review. Feel free to let me know if you need more information or have feedback.
 
 
-<a name="item7"></a>
+<a name="7_r_1"></a>
 # 8. Give it a Star! ⭐ 
 If you find this helpful, please star it. Thanks!
 
